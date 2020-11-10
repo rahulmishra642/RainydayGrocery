@@ -1,8 +1,6 @@
 package com.rainyday.grocery.controller;
 
 
-import com.rainyday.grocery.requestresponse.LoginRequest;
-import com.rainyday.grocery.requestresponse.LoginResponse;
 import com.rainyday.grocery.service.UserAuthService;
 import com.rainyday.grocery.service.UserLoginService;
 import com.rainyday.grocery.util.JwtUtil;

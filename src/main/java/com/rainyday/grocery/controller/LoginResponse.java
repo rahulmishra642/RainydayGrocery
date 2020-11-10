@@ -1,4 +1,4 @@
-package com.rainyday.grocery.requestresponse;
+package com.rainyday.grocery.controller;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

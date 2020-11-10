@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import com.rainyday.grocery.exception.JwtTokenMalformedException;
 import com.rainyday.grocery.exception.JwtTokenMissingException;
-import com.rainyday.grocery.requestresponse.UserInfo;
+import com.rainyday.grocery.models.UserInfo;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import io.jsonwebtoken.Claims;

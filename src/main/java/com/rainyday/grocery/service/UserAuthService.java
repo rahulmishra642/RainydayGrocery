@@ -1,13 +1,11 @@
 package com.rainyday.grocery.service;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
-import com.rainyday.grocery.requestresponse.UserInfo;
+import com.rainyday.grocery.models.UserInfo;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

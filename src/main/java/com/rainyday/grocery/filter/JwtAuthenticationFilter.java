@@ -6,7 +6,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import com.rainyday.grocery.exception.JwtTokenMissingException;
-import com.rainyday.grocery.requestresponse.UserInfo;
+import com.rainyday.grocery.models.UserInfo;
 import com.rainyday.grocery.service.UserAuthService;
 import com.rainyday.grocery.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;

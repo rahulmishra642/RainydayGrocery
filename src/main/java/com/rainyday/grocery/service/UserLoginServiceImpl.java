@@ -2,9 +2,8 @@ package com.rainyday.grocery.service;
 
 import com.rainyday.grocery.exception.DisableUserException;
 import com.rainyday.grocery.exception.InvalidUserCredentialsException;
-import com.rainyday.grocery.requestresponse.LoginRequest;
-import com.rainyday.grocery.requestresponse.LoginResponse;
-import com.rainyday.grocery.requestresponse.UserInfo;
+import com.rainyday.grocery.controller.LoginRequest;
+import com.rainyday.grocery.models.UserInfo;
 import com.rainyday.grocery.util.JwtUtil;
 import lombok.AllArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;

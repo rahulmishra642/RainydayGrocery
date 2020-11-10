@@ -1,4 +1,4 @@
-package com.rainyday.grocery.requestresponse;
+package com.rainyday.grocery.controller;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
