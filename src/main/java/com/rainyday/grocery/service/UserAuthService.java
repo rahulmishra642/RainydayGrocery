@@ -21,12 +21,12 @@ public class UserAuthService implements UserDetailsService {
 
     private static List<UserInfo> userList = new ArrayList<>();
 
-    private static Set<String> allRoles = new HashSet<String>(){{
-        add("ROLE_ADMIN");
-        add("ROLE_EMPLOYEE");
+    private static Set<String> allRoles = new HashSet<>(){{
+        add("ADMIN");
+        add("EMPLOYEE");
 
     }};
-    private static Set<String> employeeRole = Collections.singleton("ROLE_EMPLOYEE");
+    private static Set<String> employeeRole = Collections.singleton("EMPLOYEE");
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
